@@ -1,0 +1,387 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1238
+    },
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://localhost:4747/ePrashasanE1/login.do}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 3411
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//h3[text()='Welcome to e-PRASHASAN'] | //h3[text()='Welcome to e-à¤ªà¥�à¤°à¤¶à¤¾à¤¸à¤¨'], using=xpath}"
+      ],
+      "result": "[id: 0.11378148852622538-1]",
+      "subLogs": [],
+      "duration": 230
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//h3[text()='Welcome to e-PRASHASAN'] | //h3[text()='Welcome to e-à¤ªà¥�à¤°à¤¶à¤¾à¤¸à¤¨'], using=xpath}"
+      ],
+      "result": "id: 0.11378148852622538-1",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //h3[text()='Welcome to e-PRASHASAN'] | //h3[text()='Welcome to e-à¤ªà¥�à¤°à¤¶à¤¾à¤¸à¤¨']",
+        "{\"id\":\"0.11378148852622538-1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//h3[text()='Welcome to e-PRASHASAN'] | //h3[text()='Welcome to e-à¤ªà¥�à¤°à¤¶à¤¾à¤¸à¤¨'], using=xpath}"
+      ],
+      "result": "[id: 0.11378148852622538-1]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//input[@value='Login'], using=xpath}"
+      ],
+      "result": "[id: 0.11378148852622538-2]",
+      "subLogs": [],
+      "duration": 78
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@value='Login'], using=xpath}"
+      ],
+      "result": "id: 0.11378148852622538-2",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //input[@value='Login']",
+        "{\"id\":\"0.11378148852622538-2\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//input[@value='Login'], using=xpath}"
+      ],
+      "result": "[id: 0.11378148852622538-2]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//h3[text()='Welcome to e-PRASHASAN'] | //h3[text()='Welcome to e-à¤ªà¥�à¤°à¤¶à¤¾à¤¸à¤¨'], using=xpath}"
+      ],
+      "result": "[id: 0.11378148852622538-1]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//h3[text()='Welcome to e-PRASHASAN'] | //h3[text()='Welcome to e-à¤ªà¥�à¤°à¤¶à¤¾à¤¸à¤¨'], using=xpath}"
+      ],
+      "result": "id: 0.11378148852622538-1",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //h3[text()='Welcome to e-PRASHASAN'] | //h3[text()='Welcome to e-à¤ªà¥�à¤°à¤¶à¤¾à¤¸à¤¨']",
+        "{\"id\":\"0.11378148852622538-1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//h3[text()='Welcome to e-PRASHASAN'] | //h3[text()='Welcome to e-à¤ªà¥�à¤°à¤¶à¤¾à¤¸à¤¨'], using=xpath}"
+      ],
+      "result": "[id: 0.11378148852622538-1]",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//input[@value='Login'], using=xpath}"
+      ],
+      "result": "[id: 0.11378148852622538-2]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@value='Login'], using=xpath}"
+      ],
+      "result": "id: 0.11378148852622538-2",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //input[@value='Login']",
+        "{\"id\":\"0.11378148852622538-2\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//input[@value='Login'], using=xpath}"
+      ],
+      "result": "[id: 0.11378148852622538-2]",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select[@id='dbName'], using=xpath}"
+      ],
+      "result": "id: 0.11378148852622538-3",
+      "subLogs": [],
+      "duration": 47
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.xpath: //select[@id='dbName']",
+        "{\"id\":\"0.11378148852622538-3\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select[@id='dbName'], using=xpath}"
+      ],
+      "result": "id: 0.11378148852622538-3",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.xpath: //select[@id='dbName']",
+        "{\"name\":\"multiple\",\"id\":\"0.11378148852622538-3\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select[@id='dbName'], using=xpath}"
+      ],
+      "result": "id: 0.11378148852622538-3",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.xpath: //select[@id='dbName']",
+        "{\"using\":\"xpath\",\"id\":\"0.11378148852622538-3\",\"value\":\".//option[@value = \\\"dbe1\\\"]\"}"
+      ],
+      "result": "findChildElements:[id: 0.11378148852622538-4]",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.11378148852622538-4",
+        "{\"id\":\"0.11378148852622538-4\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.11378148852622538-4",
+        "{\"id\":\"0.11378148852622538-4\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 76
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@id='j_username'], using=xpath}"
+      ],
+      "result": "id: 0.11378148852622538-5",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@id='j_username']",
+        "{\"id\":\"0.11378148852622538-5\",\"value\":[\"principal\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 258
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@id='j_password'], using=xpath}"
+      ],
+      "result": "id: 0.11378148852622538-6",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@id='j_password']",
+        "{\"id\":\"0.11378148852622538-6\",\"value\":[\"admin123\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 70
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@value='Login'], using=xpath}"
+      ],
+      "result": "id: 0.11378148852622538-2",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@value='Login']",
+        "{\"id\":\"0.11378148852622538-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 803
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[text()='Welcome To e-PRASHASAN'] | //*[text()='Welcome To e-PRASHASAN'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 47
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "On Page FullEPrashasanLoginPage",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "FullEPrashasanLoginPage Page loaded Sucessfully",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "On Page FullEPrashasanLoginPage",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "FullEPrashasanLoginPage Page loaded Sucessfully",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "User Selected DB from Dropdown List",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "User Entered Username",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "User Entered invalid Password",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "User Clicked on Login Button",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "User not navigated to Welcome Page",
+      "type": "Pass",
+      "screenshot": "../img/TC_Login_01_ohap13h6da2j5661.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EPrashasan_Automation_Suite" parallel="tests" thread-count="1">
+
+	<test name="development_test" enabled="true">
+		<classes>
+			<class name="com.ingenio.eprashasan.english.full.testsuits.development.LOGIN">
+				<methods>
+					<include name="TC_Login_01"></include>
+					<include name="TC_Login_02"></include>
+					<include name="TC_Login_03"></include>
+					<include name="TC_Login_04"></include>
+				
+				</methods>
+			
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 10 12:40:43 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>16 seconds (16622 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ingenio.eprashasan.english.full.testsuits.development.Staff.TC_Staff_sett_02()'><b>TC_Staff_sett_02</b><br>Test class: com.ingenio.eprashasan.english.full.testsuits.development.Staff<br>Parameters: {username=principal, password=admin, invalid_password=admin123, invalid_username=username1, question_1_answser=ingenio, question_2_answser=ingenio, wrong_answser=wrongasnwser, new_password=NewPassword}<br/>
+<a href="#Output-872826668" onClick='toggleBox("Output-872826668", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-872826668" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-872826668">
+<div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>On Page FullEPrashasanLoginPage</div><div  class="info"><span class="info-label">I </span>FullEPrashasanLoginPage Page loaded Sucessfully</div><div  class="info"><span class="info-label">I </span>On Page FullEPrashasanLoginPage</div><div  class="info"><span class="info-label">I </span>FullEPrashasanLoginPage Page loaded Sucessfully</div><div  class="info"><span class="info-label">I </span>User Selected DB from Dropdown List</div><div  class="info"><span class="info-label">I </span>User Entered Username</div><div  class="info"><span class="info-label">I </span>User Entered Password</div><div  class="info"><span class="info-label">I </span>User Clicked on Login Button</div><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: //*[text()='Welcome To e-PRASHASAN'] | //*[text()='Welcome To e-PRASHASAN'] text should be Welcome To e-PRASHASAN : Actual By.xpath: //*[text()='Welcome To e-PRASHASAN'] | //*[text()='Welcome To e-PRASHASAN'] text is Welcome To e-PRASHASAN <a href="../img/TC_Staff_sett_02_10lxwxiy27nfl1271.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>User Navigated to Welcome page</div><div  class="info"><span class="info-label">I </span>User Clicked on Staff Link</div><div  class="fail"><span class="fail-label">F </span> Alert message not displayed <a href="../img/TC_Staff_sett_02_3xu99gdjbxlt1272.png" target="_blank">[View Screenshot]</a> </div></div><br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.ingenio.eprashasan.english.full.testsuits.development.Staff@18a70f16</td></tr>
+</table><p>
+</body>
+</html>

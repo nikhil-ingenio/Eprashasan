@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <!-- data for login test -->
+    <login>
+        <data>
+            <username>principal</username>
+            <password>admin</password>
+            <invalid_password>admin123</invalid_password>
+            <invalid_username>username1</invalid_username>
+
+            <question_1_answser>ingenio</question_1_answser>
+    		<question_2_answser>ingenio</question_2_answser>
+    		<wrong_answser>wrongasnwser</wrong_answser>
+    		<new_password>NewPassword</new_password>
+        </data>
+    </login>
+    
+    <!-- file may contain other data -->
+</root>

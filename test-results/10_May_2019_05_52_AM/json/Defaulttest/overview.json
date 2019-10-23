@@ -1,0 +1,68 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.ingenio.eprashasan.english.full.testsuits.development.LOGIN",
+    "com.ingenio.eprashasan.english.full.testsuits.development.Staff"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "browserName": "chrome",
+      "takesScreenshot": true,
+      "javascriptEnabled": true,
+      "version": "",
+      "platform": "ANY",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "applicationCacheEnabled": "false",
+      "rotatable": "false",
+      "mobileEmulationEnabled": "false",
+      "networkConnectionEnabled": "false",
+      "chrome": "{chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir10588_27518}",
+      "takesHeapSnapshot": "true",
+      "pageLoadStrategy": "normal",
+      "databaseEnabled": "false",
+      "handlesAlerts": "true",
+      "hasTouchScreen": "false",
+      "version": "74.0.3729.131",
+      "platform": "XP",
+      "browserConnectionEnabled": "false",
+      "nativeEvents": "true",
+      "acceptSslCerts": "false",
+      "acceptInsecureCerts": "false",
+      "locationContextEnabled": "true",
+      "webStorageEnabled": "true",
+      "browserName": "chrome",
+      "takesScreenshot": "true",
+      "javascriptEnabled": "true",
+      "cssSelectorsEnabled": "true",
+      "setWindowRect": "true",
+      "unexpectedAlertBehaviour": ""
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "13",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "20-Feb-2018 00:19:29"
+    },
+    "run-parameters": {
+      "baseurl": "http://localhost:4747/ePrashasanE1/login.do",
+      "resources": "resources"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_211",
+      "os.arch": "amd64",
+      "host": "admin-PC",
+      "os.name": "Windows 7",
+      "user.name": "admin",
+      "os.version": "6.1"
+    }
+  },
+  "startTime": 1557471729478,
+  "endTime": 1557472260428
+}

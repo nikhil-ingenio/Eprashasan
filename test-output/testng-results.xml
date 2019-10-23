@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="17" total="18" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>On Page FullEPrashasanLoginPage</div><div  class="info"><span class="info-label">I </span>FullEPrashasanLoginPage Page loaded Sucessfully</div><div  class="info"><span class="info-label">I </span>On Page FullEPrashasanLoginPage</div><div  class="info"><span class="info-label">I </span>FullEPrashasanLoginPage Page loaded Sucessfully</div><div  class="info"><span class="info-label">I </span>User Selected DB from Dropdown List</div><div  class="info"><span class="info-label">I </span>User Entered Username</div><div  class="info"><span class="info-label">I </span>User Entered Password</div><div  class="info"><span class="info-label">I </span>User Clicked on Login Button</div><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: //*[text()='Welcome To e-PRASHASAN'] | //*[text()='Welcome To e-PRASHASAN'] text should be Welcome To e-PRASHASAN : Actual By.xpath: //*[text()='Welcome To e-PRASHASAN'] | //*[text()='Welcome To e-PRASHASAN'] text is Welcome To e-PRASHASAN <a href="../img/TC_Staff_sett_02_10lxwxiy27nfl1271.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>User Navigated to Welcome page</div><div  class="info"><span class="info-label">I </span>User Clicked on Staff Link</div><div  class="fail"><span class="fail-label">F </span> Alert message not displayed <a href="../img/TC_Staff_sett_02_3xu99gdjbxlt1272.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16622" started-at="2019-05-10T07:10:43Z" finished-at="2019-05-10T07:11:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16622" started-at="2019-05-10T07:10:43Z" finished-at="2019-05-10T07:11:00Z">
+      <class name="com.ingenio.eprashasan.english.full.testsuits.development.Staff">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.ingenio.eprashasan.english.full.testsuits.development.Staff@18a70f16]" name="setupSuit" is-config="true" duration-ms="16" started-at="2019-05-10T12:40:43Z" finished-at="2019-05-10T12:40:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@23f7d05d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.ingenio.eprashasan.english.full.testsuits.development.Staff@18a70f16]" name="setupTest" is-config="true" duration-ms="0" started-at="2019-05-10T12:40:43Z" finished-at="2019-05-10T12:40:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@23f7d05d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.ingenio.eprashasan.english.full.testsuits.development.Staff@18a70f16]" name="setup" is-config="true" duration-ms="0" started-at="2019-05-10T12:40:43Z" finished-at="2019-05-10T12:40:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@23f7d05d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="TC_Staff_sett_02(java.util.Map)[pri:0, instance:com.ingenio.eprashasan.english.full.testsuits.development.Staff@18a70f16]" name="TC_Staff_sett_02" duration-ms="16016" started-at="2019-05-10T12:40:43Z" finished-at="2019-05-10T12:40:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{username=principal, password=admin, invalid_password=admin123, invalid_username=username1, question_1_answser=ingenio, question_2_answser=ingenio, wrong_answser=wrongasnwser, new_password=NewPassword}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>On Page FullEPrashasanLoginPage</div><div  class="info"><span class="info-label">I </span>FullEPrashasanLoginPage Page loaded Sucessfully</div><div  class="info"><span class="info-label">I </span>On Page FullEPrashasanLoginPage</div><div  class="info"><span class="info-label">I </span>FullEPrashasanLoginPage Page loaded Sucessfully</div><div  class="info"><span class="info-label">I </span>User Selected DB from Dropdown List</div><div  class="info"><span class="info-label">I </span>User Entered Username</div><div  class="info"><span class="info-label">I </span>User Entered Password</div><div  class="info"><span class="info-label">I </span>User Clicked on Login Button</div><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: //*[text()='Welcome To e-PRASHASAN'] | //*[text()='Welcome To e-PRASHASAN'] text should be Welcome To e-PRASHASAN : Actual By.xpath: //*[text()='Welcome To e-PRASHASAN'] | //*[text()='Welcome To e-PRASHASAN'] text is Welcome To e-PRASHASAN <a href="../img/TC_Staff_sett_02_10lxwxiy27nfl1271.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>User Navigated to Welcome page</div><div  class="info"><span class="info-label">I </span>User Clicked on Staff Link</div><div  class="fail"><span class="fail-label">F </span> Alert message not displayed <a href="../img/TC_Staff_sett_02_3xu99gdjbxlt1272.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_Staff_sett_02 -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.ingenio.eprashasan.english.full.testsuits.development.Staff@18a70f16]" name="setupMethod" is-config="true" duration-ms="0" started-at="2019-05-10T12:40:43Z" finished-at="2019-05-10T12:40:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ingenio.eprashasan.english.full.testsuits.development.Staff.TC_Staff_sett_02(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@23f7d05d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.ingenio.eprashasan.english.full.testsuits.development.Staff@18a70f16]" name="afterMethod" is-config="true" duration-ms="125" started-at="2019-05-10T12:41:00Z" finished-at="2019-05-10T12:41:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@23f7d05d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TC_Staff_sett_02 status=FAILURE method=Staff.TC_Staff_sett_02(java.util.Map)[pri:0, instance:com.ingenio.eprashasan.english.full.testsuits.development.Staff@18a70f16] output=<div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>On Page FullEPrashasanLoginPage</div><div  class="info"><span class="info-label">I </span>FullEPrashasanLoginPage Page loaded Sucessfully</div><div  class="info"><span class="info-label">I </span>On Page FullEPrashasanLoginPage</div><div  class="info"><span class="info-label">I </span>FullEPrashasanLoginPage Page loaded Sucessfully</div><div  class="info"><span class="info-label">I </span>User Selected DB from Dropdown List</div><div  class="info"><span class="info-label">I </span>User Entered Username</div><div  class="info"><span class="info-label">I </span>User Entered Password</div><div  class="info"><span class="info-label">I </span>User Clicked on Login Button</div><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: //*[text()='Welcome To e-PRASHASAN'] | //*[text()='Welcome To e-PRASHASAN'] text should be Welcome To e-PRASHASAN : Actual By.xpath: //*[text()='Welcome To e-PRASHASAN'] | //*[text()='Welcome To e-PRASHASAN'] text is Welcome To e-PRASHASAN <a href="../img/TC_Staff_sett_02_10lxwxiy27nfl1271.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>User Navigated to Welcome page</div><div  class="info"><span class="info-label">I </span>User Clicked on Staff Link</div><div  class="fail"><span class="fail-label">F </span> Alert message not displayed <a href="../img/TC_Staff_sett_02_3xu99gdjbxlt1272.png" target="_blank">[View Screenshot]</a> </div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.ingenio.eprashasan.english.full.testsuits.development.Staff@18a70f16]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-05-10T12:41:00Z" finished-at="2019-05-10T12:41:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@23f7d05d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.ingenio.eprashasan.english.full.testsuits.development.Staff@18a70f16]" name="afterTest" is-config="true" duration-ms="15" started-at="2019-05-10T12:41:00Z" finished-at="2019-05-10T12:41:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@23f7d05d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.ingenio.eprashasan.english.full.testsuits.development.Staff@18a70f16]" name="afterSuit" is-config="true" duration-ms="2" started-at="2019-05-10T12:41:00Z" finished-at="2019-05-10T12:41:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@23f7d05d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.ingenio.eprashasan.english.full.testsuits.development.Staff -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

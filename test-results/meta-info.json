@@ -1,0 +1,54 @@
+{
+  "reports": [
+    {
+      "name": "Default suite",
+      "dir": "test-results/10_May_2019_05_52_AM/json",
+      "startTime": 1557472243743
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/10_May_2019_05_52_AM/json",
+      "startTime": 1557472181871
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/10_May_2019_05_52_AM/json",
+      "startTime": 1557472168290
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/10_May_2019_05_52_AM/json",
+      "startTime": 1557472126978
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/10_May_2019_05_52_AM/json",
+      "startTime": 1557471902199
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/10_May_2019_05_52_AM/json",
+      "startTime": 1557471873813
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/10_May_2019_05_52_AM/json",
+      "startTime": 1557471822364
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/10_May_2019_05_52_AM/json",
+      "startTime": 1557471791519
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/10_May_2019_05_52_AM/json",
+      "startTime": 1557471754263
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/10_May_2019_05_52_AM/json",
+      "startTime": 1557471688116
+    }
+  ]
+}
